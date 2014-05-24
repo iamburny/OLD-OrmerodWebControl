@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteBase /
+RewriteRule ^rr_files$ /reprap/index.php [L]
+RewriteRule ^rr_status$ /reprap/index.php [L]
+RewriteRule ^rr_gcode$ /reprap/index.php [L]
+RewriteRule ^rr_fileinfo$ /reprap/index.php [L]
